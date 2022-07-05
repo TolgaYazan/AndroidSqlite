@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#14C553A6">
+    <TextView
+        android:id="@+id/textViewFacultie"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewFacultie"
+        android:textSize="20dp"
+        android:background="#DC0C53"
+        />
+
+    <EditText
+        android:id="@+id/editFacultie"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="@string/editFacultie">
+
+    </EditText>
+    <TextView
+        android:id="@+id/textViewDepartment"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewDepartment"
+        android:textSize="20dp"
+        android:background="#DC0C53"
+        />
+
+    <EditText
+        android:id="@+id/editDepartment"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="@string/editDepartment">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewlecturer"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewLecturer"
+        android:textSize="20dp"
+        android:background="#DC0C53"
+        />
+
+    <EditText
+        android:id="@+id/editLecturer"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="@string/editLecturer">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewStudentsTable"
+        android:layout_marginTop="1dp"
+        android:textSize="15dp"
+        android:background="#07E0FB"
+        />
+<!--    will be used student table contens-->
+    <Spinner
+        android:id="@+id/spinner_students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAdd"
+            android:onClick="onAddTab1"
+            android:backgroundTint="#2A8585"
+            />
+
+        <!--  -->
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/buttonDelete"
+            android:onClick="onDeleteTab1"
+            android:backgroundTint="#2A8585"
+
+            />
+
+        <!--  -->
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonUpdate"
+            android:onClick="onUpdateTab1"
+            android:backgroundTint="#2A8585"
+
+            />
+
+        <!--  -->
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A8585"
+            android:onClick="onSearchTab1"
+            android:text="@string/buttonSearch"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSelectFacultie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewAdmistrationtable"
+        android:textSize="15dp"
+        android:background="#07E0FB"
+        />
+
+<!--    show admisntrabla table contens in adminstrab tab-->
+    <ListView
+        android:id="@+id/list_viewAdminstration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

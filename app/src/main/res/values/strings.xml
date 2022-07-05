@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Cmpe408Assignment2</string>
+
+    <!--    TAB1 Stringsssss-->
+    <string name="textViewFacultie">Enter Facultie:</string>
+    <string name="textViewDepartment">Enter Department:</string>
+    <string name="textViewLecturer">Enter Lecturer:</string>
+    <string name="textViewAdmistrationtable">List of faculties , deparment and lecturers</string>
+    <string name="textViewStudentsTable">You can see the registered students</string>
+
+    <string name="editFacultie">Faculty of Law</string>
+    <string name="editDepartment">Computer Engineering</string>
+    <string name="editLecturer">Murat Orhun</string>
+
+    <string name="buttonAdd">Add</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="buttonSearch">Search</string>
+
+    <!-- End of the Tab1 stringssss -->
+
+    <!--    TAB2 Stringsssss-->
+    <string name="textViewStudentId">Student Id  generated Automatically:</string>
+    <string name="textViewGender">Select Gender:</string>
+    <string name="textViewSelectFacultie">Select faculties departments and lecturers by clickin name </string>
+    <string name="textViewSelectDepartment">Select Department by cliking name:</string>
+    <string name="textViewSelectLecturer">Select Lecture by cliking name:</string>
+
+    <string name="radioMale">Male</string>
+    <string name="radioFemale">Female</string>
+
+    <string name="editName">Student Name:</string>
+    <string name="editSurname">Student Surname:</string>
+
+    <string name="buttonRegister">Register</string>
+    <string name="buttonCancel">Delete</string>
+    <string name="buttonSearchTab2">Search</string>
+    <string name="buttonUpdateTab2">Update</string>
+
+    <!-- End of the Tab2 stringssss -->
+
+    <!-- of the Tab3 stringssss -->
+    <string name="textViewSelectedStudent">For details pls click on name:</string>
+    <!-- End of the Tab3 stringssss -->
+
+</resources>
